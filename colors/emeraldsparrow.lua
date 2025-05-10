@@ -5,13 +5,13 @@
 -- this plugin is imported.
 local palette = require("palette")
 
--- Importing any configuration
--- options set by the user.
-local config = require("emeraldsparrow")
-
 -- Importing the "setHighlights"
 -- function.
 local engine = require("guizhong")
+
+-- Importing any configuration
+-- options set by the user.
+local config = require("emeraldsparrow")
 
 -- Setting the global colorscheme
 -- name.
