@@ -1,4 +1,4 @@
--- CRIMSONROSE.NVIM by Alyx Shang.
+-- EMERALDSPARROW.NVIM by Alyx Shang.
 -- Licensed under the FSL v1.
 
 -- Defining the
