@@ -28,6 +28,7 @@ This colorscheme supports some popular Neovim plugins and a list of these plugin
 ### [Lazy.nvim](https://github.com/folke/lazy.nvim)
 
 ```Lua
+-- Spec for 'alyxshang/emeraldsparrow.nvim'.
 return {
   'alyxshang/emeraldsparrow.nvim',
   dependencies = {
@@ -62,6 +63,10 @@ lanyan = {
     }
   },
   config = function()
+
+    -- Setting the transparency setting.
+    -- Can be set to "true" or "false".
+
     require("emeraldsparrow").setup({ transparent = false })
     vim.cmd.colorscheme("emeraldsparrow")
   end
