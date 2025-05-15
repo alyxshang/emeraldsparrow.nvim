@@ -48,30 +48,6 @@ return {
   end
 }
 ```
-### [Nuwa.nvim](https://github.com/alyxshang/nuwa.nvim)
-
-```Lua
--- Info for 'alyxshang/emeraldsparrow.nvim'.
-lanyan = {
-  repository = 'alyxshang/emeraldsparrow.nvim',
-  provider = 'https://github.com',
-  dependencies = {
-    guizhong = {
-      repository = 'alyxshang/guizhong.nvim',
-      provider = 'https://github.com',
-      tag = 'v.0.2.0'
-    }
-  },
-  config = function()
-
-    -- Setting the transparency setting.
-    -- Can be set to "true" or "false".
-
-    require("emeraldsparrow").setup({ transparent = false })
-    vim.cmd.colorscheme("emeraldsparrow")
-  end
-},
-```
 
 ## CHANGELOG :black_nib:
 
